@@ -36,7 +36,8 @@ def get_version():
 
 setup(
     name="pipx",
-    version=get_version(),
+    #version=get_version(),
+    version="0.15.1.2.post1",
     author="Chad Smith",
     author_email="grassfedcode@gmail.com",
     description="Install and Run Python Applications in Isolated Environments",
